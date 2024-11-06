@@ -1,6 +1,7 @@
-/* :root {
-  --def-transition-duration: 0.3s;
-} */
+a {
+  color: black;
+  text-decoration: solid;
+}
 
 section {
   width: 100%;
@@ -42,7 +43,7 @@ section {
   transform: translateX(15rem);
   opacity: 0;
   visibility: hidden;
-  transition: transform 1s ease-in-out, opacity 2s ease-in-out,
+  transition: transform 2s ease-in-out, opacity 2s ease-in-out,
     visibility 2s ease-in-out;
 }
 
