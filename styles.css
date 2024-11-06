@@ -2,6 +2,12 @@
   --def-transition-duration: 0.3s;
 }
 
+section {
+  width: 100%;
+  height: 100%;
+  border: solid black 2px;
+}
+
 .loader-container {
   position: fixed;
   inset: 0;
@@ -41,10 +47,13 @@
 }
 
 #page-content {
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* Centers the container */
+  padding: 0 20px; /* Optional: adds padding for smaller screens */
+
   opacity: 0;
   transform: translate3d(-5rem, 0, 0);
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-  /* transition-delay: 1s; */
 }
 
 #page-content.visible {
