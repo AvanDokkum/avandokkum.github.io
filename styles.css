@@ -13,7 +13,7 @@ section {
   inset: 0;
   z-index: 999;
   display: grid;
-  place-content: space-around start;
+  place-content: center;
   transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
 }
 
@@ -39,7 +39,7 @@ section {
 }
 
 .loader-container.hidden {
-  transform: translateX(10rem);
+  transform: translateX(15rem);
   opacity: 0;
   visibility: hidden;
   transition: transform 1s ease-in-out, opacity 2s ease-in-out,
