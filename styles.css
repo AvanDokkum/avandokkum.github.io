@@ -3,17 +3,21 @@ a {
   text-decoration: solid;
 }
 
+section {
+  width: 100%;
+  height: 100%;
+  border-left: solid black 1px;
+}
+
+dl {
+  margin-left: 1.75rem;
+}
+
 .icon-small {
   width: 1.5rem;
   height: 1.5rem;
   vertical-align: -0.25rem;
   margin-right: 0.25rem;
-}
-
-section {
-  width: 100%;
-  height: 100%;
-  border-left: solid black 1px;
 }
 
 .loader-container {
