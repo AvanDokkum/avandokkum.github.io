@@ -7,6 +7,11 @@
   --border-line-width: 1px;
 }
 
+body {
+  margin-top: 3rem;
+  min-width: 520px;
+}
+
 .column {
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -32,10 +37,6 @@
   #column--border {
     border: none;
   }
-}
-
-body {
-  margin-top: 3rem;
 }
 
 h1 {
