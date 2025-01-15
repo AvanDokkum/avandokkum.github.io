@@ -29,6 +29,9 @@
   .column {
     width: 100%;
   }
+  #column--border {
+    border: none;
+  }
 }
 
 body {
