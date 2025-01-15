@@ -12,7 +12,15 @@ body {
   min-width: 520px;
 }
 
-.column {
+.column1 {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column2 {
   margin-top: 1rem;
   margin-bottom: 3rem;
   float: left;
@@ -31,11 +39,22 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  .column {
+  .column1 {
     width: 100%;
+    padding-bottom: 0;
+  }
+  .column2 {
+    width: 100%;
+    padding-top: 0;
   }
   #column--border {
     border: none;
+  }
+  .column1 {
+    margin-bottom: 0;
+  }
+  .column2 {
+    margin-top: 0;
   }
 }
 
