@@ -1,1 +1,1 @@
-The following repository is hosted on avandokkum.github.io
+Go to [My Resume](https://avandokkum.github.io)
