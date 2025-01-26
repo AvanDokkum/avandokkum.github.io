@@ -1,1 +1,1 @@
-# Go to [My CV/Resume](https://avandokkum.github.io)
+# Go to [my CV/Resume](https://avandokkum.github.io)
