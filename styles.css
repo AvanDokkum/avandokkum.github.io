@@ -161,3 +161,15 @@ dl {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.lang-content {
+  display: none;
+}
+.active {
+  display: block;
+}
