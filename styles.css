@@ -9,15 +9,14 @@
 
 body {
   margin-top: 3rem;
-  min-width: 580px;
+  min-width: 560px;
 }
 
 .column1 {
-  margin-top: 1rem;
   margin-bottom: 3rem;
+  padding-top: 0;
   float: left;
   width: 50%;
-  padding: 10px;
 }
 
 .column2 {
@@ -25,7 +24,6 @@ body {
   margin-bottom: 3rem;
   float: left;
   width: 50%;
-  padding: 10px;
 }
 
 #column--border {
@@ -137,6 +135,7 @@ dl {
 }
 
 .dog-wrapper {
+  margin-right: 1rem;
   width: 76px; /* Match inner width */
   height: 80px; /* New desired height */
   overflow: hidden;
