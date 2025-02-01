@@ -111,6 +111,12 @@ dl {
   margin-right: 0.25rem;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .loader-container {
   position: fixed;
   inset: 0;
@@ -118,6 +124,7 @@ dl {
   display: grid;
   place-content: center;
   transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+  transform: translateX(-15rem);
 }
 
 .loader {
@@ -127,6 +134,24 @@ dl {
   background-repeat: none;
   background-size: cover;
   animation: 0.75s steps(9) infinite walking;
+}
+
+.dog-wrapper {
+  width: 76px; /* Match inner width */
+  height: 80px; /* New desired height */
+  overflow: hidden;
+  position: relative;
+}
+
+.dog-running-animation {
+  background-image: url(illustrations/dog\ running\ cycle\ v4.svg);
+  width: 76px;
+  height: 128px; /* Keep the original height */
+  background-repeat: none;
+  background-size: cover;
+  animation: 0.75s steps(9) infinite walking;
+  position: absolute;
+  top: -24px; /* Adjust to center the visible part */
 }
 
 @keyframes walking {
@@ -173,6 +198,7 @@ dl {
 
 button {
   display: inline-block;
+  margin: 1rem;
   padding: 12px 24px;
   background-color: #000;
   color: #fff;
@@ -184,6 +210,8 @@ button {
   cursor: pointer;
   transition: all 0.3s ease;
   white-space: nowrap;
+
+  height: 3rem;
 
   /* padding: 10px 20px; */
   font-size: 16px;
