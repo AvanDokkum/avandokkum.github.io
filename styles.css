@@ -9,7 +9,7 @@
 
 body {
   margin-top: 3rem;
-  min-width: 600px;
+  min-width: 580px;
 }
 
 .column1 {
@@ -168,7 +168,7 @@ dl {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
+  flex-wrap: wrap;
 }
 
 button {
@@ -197,7 +197,7 @@ button:hover {
 }
 
 button:focus {
-  outline:none;
+  outline: none;
 }
 
 .lang-content {
