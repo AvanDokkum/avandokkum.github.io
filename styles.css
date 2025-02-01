@@ -20,7 +20,6 @@ body {
 }
 
 .column2 {
-  margin-top: 1rem;
   margin-bottom: 3rem;
   float: left;
   width: 50%;
@@ -111,8 +110,6 @@ dl {
 
 .button-container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .loader-container {
@@ -136,7 +133,7 @@ dl {
 
 .dog-wrapper {
   margin-right: 1rem;
-  width: 76px; /* Match inner width */
+  width: 114px; /* Match inner width */
   height: 80px; /* New desired height */
   overflow: hidden;
   position: relative;
@@ -144,13 +141,13 @@ dl {
 
 .dog-running-animation {
   background-image: url(illustrations/dog\ running\ cycle\ v4.svg);
-  width: 76px;
-  height: 128px; /* Keep the original height */
+  width: 114px;
+  height: 192px; /* Keep the original height */
   background-repeat: none;
   background-size: cover;
   animation: 0.75s steps(9) infinite walking;
   position: absolute;
-  top: -24px; /* Adjust to center the visible part */
+  top: -60px; /* Adjust to center the visible part */
 }
 
 @keyframes walking {
