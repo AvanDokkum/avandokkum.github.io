@@ -164,6 +164,14 @@ dl {
   top: -60px; /* Adjust to center the visible part */
 }
 
+.dog-image-PDF-PRINT {
+  height: 192px;
+  background-repeat: none;
+  background-size: cover;
+  position: absolute;
+  top: -60px;
+}
+
 @keyframes walking {
   to {
     background-position: 100%;
