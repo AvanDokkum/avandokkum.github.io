@@ -28,16 +28,17 @@ Webdevelopment bij Vin Doekha
 Vrijwillig hondentrainer
 2021
 
-Affiliate marketing specialist/accountmanagement bij TradeTracker
+Affiliate-marketing specialist/accountmanager bij TradeTracker
 2019-2020
 
-Afstuderen - Content/marketing strategist bij Source1Media
+Afstuderen, Content/marketing strategist bij Source1Media
 2017-2018
 
-Stage productie/montage bij Blue Circle (RTL Boulevard)
+Stage, productie/montage bij Blue Circle (RTL Boulevard)
 2014
 
 Teamleider bij aspergeboerderij Blaricum
+Eindverantwoordelijk voor het team en aspergeveld 
 2009-2021
 
 Diverse bijbanen 
@@ -45,9 +46,9 @@ Diverse bijbanen
 2008-2019
 
 opleiding
-
     diploma
     Bachelor of Science (BSc), Communicatie & Multimedia Design; Hogeschool Utrecht (HU) 2018 - minor in Gamification & Serious Games.
+
     certificaten
     Oracle Certified Associate (OCA), Java SE 8 Programmer; Oracle Certification (2024)
     Professional Scrum Master I (PSM1); Scrum.org (2024)
@@ -57,40 +58,39 @@ programmeren
 Java (OCA gecertificeerd)
 Spring framework
     Spring boot
-    Spring JPA?
-    Spring Data
-    Spring MVC
+    Spring Security
+    Spring Data JPA
+    Spring Web MVC
 HTML & CSS
 Typescript & JavaScript
-React
+React & Vite
 Angular (basis)
 
 Tools & vaardigheden
-JUnit
 Scrum; Professional Scrum Master (PSM1)
 AWS; Certified Cloud Practitioner
+JUnit unit-testing
+Postman
 Git & GitHub
 Maven
+SQL
 PostgreSQL
-UML & Markdown
+WordPress & Elementor
 
-design
-Motion graphics & stop-motion animaties
-Visual design (kleurtheorie) & UX/UI design
-AI (Midjourney-afbeeldingen & ChatGPT/Gemini/Copilot contentgeneratie)
-Digitale marketing (inclusief affiliate, SEO & SEA)
-WordPress en Elementor
-Adobe Master Collection (inclusief Photoshop, Illustrator, InDesign, Premiere Pro en After Effects)
+design & marketing
+Visual design (huisstijlen & motion graphics)
+UX/UI design
+Online-marketing (affiliate)
+Adobe Master Collection
+    Photoshop
+    Illustrator
+    InDesign
+    Premiere Pro
+    After Effects
 
 hobbies en interesses
-"Ik ren lange afstanden door de natuur samen met mijn hond"
 Canicross & hardlopen
-Gevorderde hondentraining
-Honkbal, judo & BJJ
-Schilderen & grafisch ontwerp
+Hondentraining
 Tuinieren, koken & zelfvoorzienend leven
-Klussen & tiny houses
-Simulatiespellen zoals iRacing
-PC-bouw & technologieën
-VR, AR, gadgets en smart homes
-
+VR, AR & Simulaties
+PC's bouwen, gadgets & smart-homes
