@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Dummy script to remove error: "Layout was forced before the page was fully loaded. If stylesheets are not yet loaded this may cause a flash of unstyled content." -->
+    <script>
+      0;
+    </script>
+    <!-- Site-preloader -->
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Page -->
+    <section id="page-content">
+      <header>
+        <p>reload this page</p>
+      </header>
+    </section>
+    <script>
+      //Site-preloader - start
+      const loaderContainer = document.querySelector(".loader-container");
+      const pageContent = document.querySelector("#page-content");
+      window.addEventListener("load", () => {
+        loaderContainer.classList.add("hidden");
+        pageContent.classList.add("visible");
+      });
+      //Site-preloader - end
+    </script>
+  </body>
+</html>
